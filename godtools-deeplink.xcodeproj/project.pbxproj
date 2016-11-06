@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		688309E61DCEB53800CEC734 /* Deeplink+helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 688309E11DCEB53800CEC734 /* Deeplink+helpers.m */; };
+		688309E71DCEB53800CEC734 /* Deeplink.m in Sources */ = {isa = PBXBuildFile; fileRef = 688309E31DCEB53800CEC734 /* Deeplink.m */; };
+		688309E81DCEB53800CEC734 /* GodToolsDeeplink.m in Sources */ = {isa = PBXBuildFile; fileRef = 688309E51DCEB53800CEC734 /* GodToolsDeeplink.m */; };
 		68DB06691DCE991400BF86E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DB06681DCE991400BF86E8 /* AppDelegate.swift */; };
 		68DB066B1DCE991400BF86E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DB066A1DCE991400BF86E8 /* ViewController.swift */; };
 		68DB066E1DCE991400BF86E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68DB066C1DCE991400BF86E8 /* Main.storyboard */; };
 		68DB06701DCE991400BF86E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68DB066F1DCE991400BF86E8 /* Assets.xcassets */; };
 		68DB06731DCE991400BF86E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68DB06711DCE991400BF86E8 /* LaunchScreen.storyboard */; };
-		68DB06811DCE9A1500BF86E8 /* Deeplink+helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DB067C1DCE9A1500BF86E8 /* Deeplink+helpers.m */; };
-		68DB06821DCE9A1500BF86E8 /* Deeplink.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DB067E1DCE9A1500BF86E8 /* Deeplink.m */; };
-		68DB06831DCE9A1500BF86E8 /* GodToolsDeeplink.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DB06801DCE9A1500BF86E8 /* GodToolsDeeplink.m */; };
 		68DB06881DCE9C1700BF86E8 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68DB06871DCE9C1600BF86E8 /* AdSupport.framework */; };
 		68DB068A1DCE9C2B00BF86E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68DB06891DCE9C2B00BF86E8 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		688309E01DCEB53800CEC734 /* Deeplink+helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Deeplink+helpers.h"; sourceTree = "<group>"; };
+		688309E11DCEB53800CEC734 /* Deeplink+helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Deeplink+helpers.m"; sourceTree = "<group>"; };
+		688309E21DCEB53800CEC734 /* Deeplink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deeplink.h; sourceTree = "<group>"; };
+		688309E31DCEB53800CEC734 /* Deeplink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deeplink.m; sourceTree = "<group>"; };
+		688309E41DCEB53800CEC734 /* GodToolsDeeplink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GodToolsDeeplink.h; sourceTree = "<group>"; };
+		688309E51DCEB53800CEC734 /* GodToolsDeeplink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GodToolsDeeplink.m; sourceTree = "<group>"; };
 		68DB06651DCE991400BF86E8 /* godtools-deeplink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "godtools-deeplink.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68DB06681DCE991400BF86E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68DB066A1DCE991400BF86E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,12 +33,6 @@
 		68DB066F1DCE991400BF86E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68DB06721DCE991400BF86E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68DB06741DCE991400BF86E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		68DB067B1DCE9A1500BF86E8 /* Deeplink+helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Deeplink+helpers.h"; sourceTree = "<group>"; };
-		68DB067C1DCE9A1500BF86E8 /* Deeplink+helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Deeplink+helpers.m"; sourceTree = "<group>"; };
-		68DB067D1DCE9A1500BF86E8 /* Deeplink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deeplink.h; sourceTree = "<group>"; };
-		68DB067E1DCE9A1500BF86E8 /* Deeplink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deeplink.m; sourceTree = "<group>"; };
-		68DB067F1DCE9A1500BF86E8 /* GodToolsDeeplink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GodToolsDeeplink.h; sourceTree = "<group>"; };
-		68DB06801DCE9A1500BF86E8 /* GodToolsDeeplink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GodToolsDeeplink.m; sourceTree = "<group>"; };
 		68DB06851DCE9B7D00BF86E8 /* godtools-deeplink-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "godtools-deeplink-Bridging-Header.h"; sourceTree = "<group>"; };
 		68DB06871DCE9C1600BF86E8 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		68DB06891DCE9C2B00BF86E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -51,6 +51,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		688309DF1DCEB53800CEC734 /* deeplink */ = {
+			isa = PBXGroup;
+			children = (
+				688309E01DCEB53800CEC734 /* Deeplink+helpers.h */,
+				688309E11DCEB53800CEC734 /* Deeplink+helpers.m */,
+				688309E21DCEB53800CEC734 /* Deeplink.h */,
+				688309E31DCEB53800CEC734 /* Deeplink.m */,
+				688309E41DCEB53800CEC734 /* GodToolsDeeplink.h */,
+				688309E51DCEB53800CEC734 /* GodToolsDeeplink.m */,
+			);
+			name = deeplink;
+			path = "../../godtools-ios/godtools/deeplink";
+			sourceTree = "<group>";
+		};
 		68DB065C1DCE991400BF86E8 = {
 			isa = PBXGroup;
 			children = (
@@ -71,7 +85,7 @@
 		68DB06671DCE991400BF86E8 /* godtools-deeplink */ = {
 			isa = PBXGroup;
 			children = (
-				68DB067A1DCE9A1500BF86E8 /* deeplink */,
+				688309DF1DCEB53800CEC734 /* deeplink */,
 				68DB06681DCE991400BF86E8 /* AppDelegate.swift */,
 				68DB066A1DCE991400BF86E8 /* ViewController.swift */,
 				68DB066C1DCE991400BF86E8 /* Main.storyboard */,
@@ -81,19 +95,6 @@
 				68DB06851DCE9B7D00BF86E8 /* godtools-deeplink-Bridging-Header.h */,
 			);
 			path = "godtools-deeplink";
-			sourceTree = "<group>";
-		};
-		68DB067A1DCE9A1500BF86E8 /* deeplink */ = {
-			isa = PBXGroup;
-			children = (
-				68DB067B1DCE9A1500BF86E8 /* Deeplink+helpers.h */,
-				68DB067C1DCE9A1500BF86E8 /* Deeplink+helpers.m */,
-				68DB067D1DCE9A1500BF86E8 /* Deeplink.h */,
-				68DB067E1DCE9A1500BF86E8 /* Deeplink.m */,
-				68DB067F1DCE9A1500BF86E8 /* GodToolsDeeplink.h */,
-				68DB06801DCE9A1500BF86E8 /* GodToolsDeeplink.m */,
-			);
-			path = deeplink;
 			sourceTree = "<group>";
 		};
 		68DB06861DCE9C1600BF86E8 /* Frameworks */ = {
@@ -179,9 +180,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				68DB066B1DCE991400BF86E8 /* ViewController.swift in Sources */,
-				68DB06821DCE9A1500BF86E8 /* Deeplink.m in Sources */,
-				68DB06811DCE9A1500BF86E8 /* Deeplink+helpers.m in Sources */,
-				68DB06831DCE9A1500BF86E8 /* GodToolsDeeplink.m in Sources */,
+				688309E71DCEB53800CEC734 /* Deeplink.m in Sources */,
+				688309E61DCEB53800CEC734 /* Deeplink+helpers.m in Sources */,
+				688309E81DCEB53800CEC734 /* GodToolsDeeplink.m in Sources */,
 				68DB06691DCE991400BF86E8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,6 +349,7 @@
 				68DB06791DCE991400BF86E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
