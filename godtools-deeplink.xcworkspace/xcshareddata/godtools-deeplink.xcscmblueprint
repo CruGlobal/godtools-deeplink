@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1A58558115BD1C2EE20AE6873C4FFD839077FC20",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1A58558115BD1C2EE20AE6873C4FFD839077FC20" : 9223372036854775807,
+    "EDE2B63B72CB739042D9669FDAF6105AE9C104E2" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4B055365-CE7A-44D6-9F03-581C88464DC7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1A58558115BD1C2EE20AE6873C4FFD839077FC20" : "godtools-deeplink\/",
+    "EDE2B63B72CB739042D9669FDAF6105AE9C104E2" : "godtools-ios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "godtools-deeplink",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "godtools-deeplink.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CruGlobal\/godtools-deeplink.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1A58558115BD1C2EE20AE6873C4FFD839077FC20"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CruGlobal\/godtools-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EDE2B63B72CB739042D9669FDAF6105AE9C104E2"
+    }
+  ]
+}

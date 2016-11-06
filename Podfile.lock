@@ -1,0 +1,12 @@
+PODS:
+  - JLRoutes (2.0)
+
+DEPENDENCIES:
+  - JLRoutes (~> 2.0)
+
+SPEC CHECKSUMS:
+  JLRoutes: 0bead23690bafa726e1528aa6459a56c9b81cb5e
+
+PODFILE CHECKSUM: eab8ac5791cd9c24cab8e0686280e1bc526dc1f4
+
+COCOAPODS: 1.1.1

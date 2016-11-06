@@ -17,9 +17,11 @@
 		68DB06731DCE991400BF86E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68DB06711DCE991400BF86E8 /* LaunchScreen.storyboard */; };
 		68DB06881DCE9C1700BF86E8 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68DB06871DCE9C1600BF86E8 /* AdSupport.framework */; };
 		68DB068A1DCE9C2B00BF86E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68DB06891DCE9C2B00BF86E8 /* UIKit.framework */; };
+		E05253DF7B1ECE56C911D23D /* libPods-godtools-deeplink.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62CCC640B8779BB4478FCED3 /* libPods-godtools-deeplink.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		62CCC640B8779BB4478FCED3 /* libPods-godtools-deeplink.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-godtools-deeplink.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		688309E01DCEB53800CEC734 /* Deeplink+helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Deeplink+helpers.h"; sourceTree = "<group>"; };
 		688309E11DCEB53800CEC734 /* Deeplink+helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Deeplink+helpers.m"; sourceTree = "<group>"; };
 		688309E21DCEB53800CEC734 /* Deeplink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deeplink.h; sourceTree = "<group>"; };
@@ -36,6 +38,8 @@
 		68DB06851DCE9B7D00BF86E8 /* godtools-deeplink-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "godtools-deeplink-Bridging-Header.h"; sourceTree = "<group>"; };
 		68DB06871DCE9C1600BF86E8 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		68DB06891DCE9C2B00BF86E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B7076D0A024AC5FB1CBACAA7 /* Pods-godtools-deeplink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-godtools-deeplink.debug.xcconfig"; path = "Pods/Target Support Files/Pods-godtools-deeplink/Pods-godtools-deeplink.debug.xcconfig"; sourceTree = "<group>"; };
+		EE5F4542CB2823EB80069CF0 /* Pods-godtools-deeplink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-godtools-deeplink.release.xcconfig"; path = "Pods/Target Support Files/Pods-godtools-deeplink/Pods-godtools-deeplink.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +49,7 @@
 			files = (
 				68DB068A1DCE9C2B00BF86E8 /* UIKit.framework in Frameworks */,
 				68DB06881DCE9C1700BF86E8 /* AdSupport.framework in Frameworks */,
+				E05253DF7B1ECE56C911D23D /* libPods-godtools-deeplink.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +76,7 @@
 				68DB06671DCE991400BF86E8 /* godtools-deeplink */,
 				68DB06661DCE991400BF86E8 /* Products */,
 				68DB06861DCE9C1600BF86E8 /* Frameworks */,
+				6A2BD63CE4C7DDD2B672997A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,8 +108,18 @@
 			children = (
 				68DB06891DCE9C2B00BF86E8 /* UIKit.framework */,
 				68DB06871DCE9C1600BF86E8 /* AdSupport.framework */,
+				62CCC640B8779BB4478FCED3 /* libPods-godtools-deeplink.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A2BD63CE4C7DDD2B672997A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7076D0A024AC5FB1CBACAA7 /* Pods-godtools-deeplink.debug.xcconfig */,
+				EE5F4542CB2823EB80069CF0 /* Pods-godtools-deeplink.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,9 +129,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 68DB06771DCE991400BF86E8 /* Build configuration list for PBXNativeTarget "godtools-deeplink" */;
 			buildPhases = (
+				0F4C4EBF28D5990220233BE7 /* [CP] Check Pods Manifest.lock */,
 				68DB06611DCE991400BF86E8 /* Sources */,
 				68DB06621DCE991400BF86E8 /* Frameworks */,
 				68DB06631DCE991400BF86E8 /* Resources */,
+				7C2981C5F5F73727A6D7F386 /* [CP] Embed Pods Frameworks */,
+				4A70269E2D148CD5B0DFA2F3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,6 +192,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F4C4EBF28D5990220233BE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4A70269E2D148CD5B0DFA2F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-godtools-deeplink/Pods-godtools-deeplink-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C2981C5F5F73727A6D7F386 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-godtools-deeplink/Pods-godtools-deeplink-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		68DB06611DCE991400BF86E8 /* Sources */ = {
@@ -302,6 +369,7 @@
 		};
 		68DB06781DCE991400BF86E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7076D0A024AC5FB1CBACAA7 /* Pods-godtools-deeplink.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DQ48D9BF2V;
@@ -317,6 +385,7 @@
 		};
 		68DB06791DCE991400BF86E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE5F4542CB2823EB80069CF0 /* Pods-godtools-deeplink.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DQ48D9BF2V;
